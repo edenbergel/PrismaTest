@@ -9,7 +9,7 @@ npm run start:dev
 ### Mode production
 ```
 npm run build
-http-serve
+http-server
 ```
 
 ### Choix techniques
