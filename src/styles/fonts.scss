@@ -1,0 +1,19 @@
+// Init Font in its own directory then call it in the main scss file to use the variables
+@font-face {
+  font-family: "OpenSans-Regular";
+  src: url("../assets/fonts/OpenSans-Regular.woff2") format("woff2"),
+        url("../assets/fonts/OpenSans-Regular.woff") format("woff");
+ }
+
+@font-face {
+  font-family: "OpenSans-Medium";
+  src: url("../assets/fonts/OpenSans-SemiBold.woff2") format("woff2"),
+        url("../assets/fonts/OpenSans-SemiBold.woff") format("woff");
+}
+
+$primaryFont: "OpenSans-Regular";
+$secondaryFont: "OpenSans-Medium";
+
+body {
+  font-family: $primaryFont;
+}
